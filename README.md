@@ -37,7 +37,7 @@ yapıları kullanılarak modüler şekilde tasarlanmıştır.
 
 ### Kullanılan Veri Yapıları
 
-- <b>Liste (list)</b>
+-<b>Liste (list)</b>
 <pre><code class="language-python">
   ogrenci_bilgileri = []
   dersler = []

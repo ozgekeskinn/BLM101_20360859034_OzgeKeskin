@@ -44,8 +44,8 @@ yapıları kullanılarak modüler şekilde tasarlanmıştır.
 
 <p>ogrenci_bilgileri: Öğrenciye ait bilgileri sözlük (dictionary) yapısıyla saklamak için kullanılır.</p>
 <p>dersler: Kullanıcının girdiği dersleri tutmak için kullanılır.</p>
--** Sözlük (dictionary)**
-```python
+-<b>Sözlük (dictionary)</b>
+<pre><code class="language-python">
 {
   "adSoyad": adSoyad,
   "bolum": bolum,
@@ -53,7 +53,8 @@ yapıları kullanılarak modüler şekilde tasarlanmıştır.
   "okulNo": okulNo,
   "sehir": sehir
 }
-``` 
+</code></pre>
+
 <p>Öğrenci bilgileri anahtar–değer (key–value) mantığıyla tutulur.</p>
 <p>Bu yapı HTML oluştururken verilere kolay erişim sağlar.</p>
 

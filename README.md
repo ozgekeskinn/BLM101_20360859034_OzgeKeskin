@@ -38,10 +38,10 @@ yapıları kullanılarak modüler şekilde tasarlanmıştır.
 ### Kullanılan Veri Yapıları
 
 - <b>Liste (list)</b>
-  ```python
+<pre><code class="language-python">
   ogrenci_bilgileri = []
   dersler = []
-
+</code></pre>
 <p>ogrenci_bilgileri: Öğrenciye ait bilgileri sözlük (dictionary) yapısıyla saklamak için kullanılır.</p>
 <p>dersler: Kullanıcının girdiği dersleri tutmak için kullanılır.</p>
 -<b>Sözlük (dictionary)</b>
@@ -61,36 +61,41 @@ yapıları kullanılarak modüler şekilde tasarlanmıştır.
 ## Kullanıcıdan Veri Alma ve Kontroller
 ### input_al() Fonksiyonu
 <p>Bu fonksiyon kullanıcıdan öğrenci bilgilerini alır ve hatalı girişleri engeller.</p>
-```python 
+<pre><code class="language-python">
 input()
+</code></pre>
 
 <p>Kullanıcıdan veri almak için kullanılır. Python’da her input varsayılan olarak string döner.</p>
-```python
+<pre><code class="language-python">
 strip()
-```
+</code></pre>
+
 -Boş giriş kontrolü
-```python
+<pre><code class="language-python">
 if adSoyad == "":
-```
+</code></pre>
+
 <p>Kullanıcının boş veri girmesi engellenir.</p>
-```python
+<pre><code class="language-python">
 isdigit()
-```
+</code></pre>
 <p>Girilen değerin sadece rakamlardan oluşup oluşmadığını kontrol eder.</p>
 - int() dönüşümü
-```python
+<pre><code class="language-python">
 sinif = int(sinif)
-```
+</code></pre>
 <p>Sayısal işlemler için string veri integer tipe dönüştürülür.</p>
 
 ### Ders ekleme : ders_ekle() Fonksiyonu
 <p>Bu fonksiyon kullanıcıdan birden fazla ders alabilmek için while döngüsü kullanır.</p>
-
+<pre><code class="language-python">
 lower()
+</code></pre>
 <p>Büyük–küçük harf farkını ortadan kaldırır (E, e, H, h gibi).</p>
-
+<pre><code class="language-python">
 append()
 dersler.append(ders)
+</code></pre>
 <p>Girilen dersleri dersler listesine ekler.</p>
 
 ### Tema Seçimi : tema_secimi() Fonksiyonu
@@ -106,25 +111,25 @@ dersler.append(ders)
 
 ### HTML Dosyası Oluşturma : html_olustur() Fonksiyonu
 <p>Bu fonksiyon programın en önemli kısmıdır.</p>
-
+<pre><code class="language-python">
 open()
 open("index.html", "w", encoding="utf-8")
-
+</code></pre>
 <p>"w": Dosya yazma modudur.</p>
 <p>utf-8: Türkçe karakter sorunlarını önler.</p>
-
+<pre><code class="language-python">
 file.write()
+</code></pre>
 <p>HTML ve CSS kodları string olarak dosyaya yazılır.</p>
-
+<pre><code class="language-python">
 f"{ogrenci_bilgileri[0]['adSoyad']}"
+</code></pre>
 <p>Python değişkenlerinin HTML içine dinamik olarak yerleştirilmesini sağlar.</p>
 
 <p><b>HTML ve CSS Yapısı</b></p>
 <p>HTML içinde:</p>
-<div class="card"> 
-  yapısı ile kart tasarımı oluşturulmuştur.
-<ul><li> 
-  etiketleriyle ders listesi gösterilmiştir.
+"<div class="card">" yapısı ile kart tasarımı oluşturulmuştur.
+"<ul><li>"etiketleriyle ders listesi gösterilmiştir.
 
 <p>CSS ile:</p>
 <p>flex yapısı kullanılarak kartlar yan yana hizalanmıştır.</p>

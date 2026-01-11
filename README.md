@@ -68,6 +68,7 @@ input()
 <pre><code class="language-python">
 strip()
 </code></pre>
+<p>Kullanıcı girdisinin başındaki ve sonundaki boşlukları siler.</p>
 
 -Boş giriş kontrolü
 <pre><code class="language-python">

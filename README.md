@@ -1,4 +1,4 @@
-#<h1>Python ile Otomatik HTML Sayfası Oluşturucu</h1>
+<h1>Python ile Otomatik HTML Sayfası Oluşturucu</h1>
 <h2>Öğrenci Bilgileri</h2> 
   <p>Özge KESKİN</p>
   <p>20360859034</p>

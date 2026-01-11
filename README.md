@@ -1,10 +1,10 @@
 # BLM101_20360859034_OzgeKeskin
-Python ile Otomatik HTML Sayfası Oluşturucu
-Öğrenci Bilgileri: 
-  Özge KESKİN
-  20360859034
-Proje Konusu: 5. Grup: Ağlar, İnternet ve HTML
-YouTube Linki: https://youtu.be/z4i6LhtKf0A
+<h1>Python ile Otomatik HTML Sayfası Oluşturucu</h1><br>
+<h2>Öğrenci Bilgileri:</h2> 
+  <p>Özge KESKİN</p>
+  <p>20360859034</p><br>
+<h2>Proje Konusu:</h2> 5. Grup: Ağlar, İnternet ve HTML<br>
+YouTube Linki: https://youtu.be/z4i6LhtKf0A<br>
 Proje Açıklaması: Kodun ne yaptığı, nasıl çalıştırılacağı (kurulum gerekip gerekmediği) ve kodun
 çalışma mantığının detaylı açıklaması (Markdown formatında).
 

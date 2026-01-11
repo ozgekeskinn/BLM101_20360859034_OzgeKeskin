@@ -72,14 +72,15 @@ strip()
 
 -Boş giriş kontrolü
 <pre><code class="language-python">
-if adSoyad == "":
+if adSoyad == "" or bolum == "" or sinif == "" or okulNo == "" or sehir == "":
 </code></pre>
-
 <p>Kullanıcının boş veri girmesi engellenir.</p>
+
 <pre><code class="language-python">
 isdigit()
 </code></pre>
 <p>Girilen değerin sadece rakamlardan oluşup oluşmadığını kontrol eder.</p>
+
 - int() dönüşümü
 <pre><code class="language-python">
 sinif = int(sinif)
@@ -98,6 +99,9 @@ dersler.append(ders)
 </code></pre>
 <p>Girilen dersleri dersler listesine ekler.</p>
 
+### Biyografi Al : biyografi_al() Fonksiyonu
+<p>Kullanıcıdan biyografi bilgisi alınır.</p>
+
 ### Tema Seçimi : tema_secimi() Fonksiyonu
 <p>Kullanıcının seçimine göre arka plan rengi belirler.</p>
 <p>Açık tema → #FFFFFF</p>
@@ -105,9 +109,9 @@ dersler.append(ders)
 <p>Tema rengi HTML içinde CSS arka plan rengi olarak kullanılır.</p>
 
 ### GitHub Ekleme : sosyal_medya_ekle() Fonksiyonu
-<p>Kullanıcı isterse GitHub kullanıcı adı alır.</p>
+<p>Kullanıcı isterse GitHub kullanıcı adı alınır.</p>
 <p>Eğer kullanıcı eklemek istemezse None döner.</p>
-<p>HTML oluşturulurken bu kontrol edilir ve sadece varsa link eklenir.</p>
+<p>HTML oluşturulurken bu kontrol edilir ve sadece varsa link eklenir. Kullanıcı oluşturulan web sitesinde github linkine erişebilir</p>
 
 ### HTML Dosyası Oluşturma : html_olustur() Fonksiyonu
 <p>Bu fonksiyon programın en önemli kısmıdır.</p>

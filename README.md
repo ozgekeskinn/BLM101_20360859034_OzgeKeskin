@@ -26,6 +26,37 @@ basit CSS ile stillendirilmiş kart yapısına sahiptir.
 - Tüm bu bilgileri kullanarak otomatik olarak bir **index.html** dosyası oluşturur.
 - HTML dosyası açıldığında, girilen bilgilere göre düzenlenmiş bir web sayfası görüntülenir.
 
+## Kodun Detaylı Çalışma Mantığı
+
+Bu projede Python kullanılarak kullanıcıdan alınan bilgiler işlenmiş ve
+bu bilgilerle otomatik olarak bir HTML dosyası üretilmiştir.
+Kod; fonksiyonlar, listeler, sözlükler, string işlemleri ve dosya yazma
+yapıları kullanılarak modüler şekilde tasarlanmıştır.
+
+---
+
+### Kullanılan Veri Yapıları
+
+- **Liste (list)**  
+  ```python
+  ogrenci_bilgileri = []
+  dersler = []
+
+ogrenci_bilgileri: Öğrenciye ait bilgileri sözlük (dictionary) yapısıyla saklamak için kullanılır.
+dersler: Kullanıcının girdiği dersleri tutmak için kullanılır.
+**Sözlük (dictionary)**
+```python
+{
+  "adSoyad": adSoyad,
+  "bolum": bolum,
+  "sinif": sinif,
+  "okulNo": okulNo,
+  "sehir": sehir
+}
+
+Öğrenci bilgileri anahtar–değer (key–value) mantığıyla tutulur.
+Bu yapı HTML oluştururken verilere kolay erişim sağlar.
+
 ## Nasıl Çalıştırılır?
 Bu proje için **ekstra kurulum veya kütüphane gerekmez**.
 

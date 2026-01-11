@@ -37,14 +37,14 @@ yapıları kullanılarak modüler şekilde tasarlanmıştır.
 
 ### Kullanılan Veri Yapıları
 
-- **Liste (list)**  
+- <b>Liste (list)</b>
   ```python
   ogrenci_bilgileri = []
   dersler = []
 
 <p>ogrenci_bilgileri: Öğrenciye ait bilgileri sözlük (dictionary) yapısıyla saklamak için kullanılır.</p>
 <p>dersler: Kullanıcının girdiği dersleri tutmak için kullanılır.</p>
-**Sözlük (dictionary)**
+-** Sözlük (dictionary)**
 ```python
 {
   "adSoyad": adSoyad,
@@ -115,7 +115,7 @@ open("index.html", "w", encoding="utf-8")
 file.write()
 <p>HTML ve CSS kodları string olarak dosyaya yazılır.</p>
 
-f"<p>{ogrenci_bilgileri[0]['adSoyad']}</p>"
+f"{ogrenci_bilgileri[0]['adSoyad']}"
 <p>Python değişkenlerinin HTML içine dinamik olarak yerleştirilmesini sağlar.</p>
 
 <p><b>HTML ve CSS Yapısı</b></p>

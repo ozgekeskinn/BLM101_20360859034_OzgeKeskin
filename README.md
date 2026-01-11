@@ -42,8 +42,8 @@ yapıları kullanılarak modüler şekilde tasarlanmıştır.
   ogrenci_bilgileri = []
   dersler = []
 
-ogrenci_bilgileri: Öğrenciye ait bilgileri sözlük (dictionary) yapısıyla saklamak için kullanılır.
-dersler: Kullanıcının girdiği dersleri tutmak için kullanılır.
+<p>ogrenci_bilgileri: Öğrenciye ait bilgileri sözlük (dictionary) yapısıyla saklamak için kullanılır.</p>
+<p>dersler: Kullanıcının girdiği dersleri tutmak için kullanılır.</p>
 **Sözlük (dictionary)**
 ```python
 {
@@ -53,9 +53,34 @@ dersler: Kullanıcının girdiği dersleri tutmak için kullanılır.
   "okulNo": okulNo,
   "sehir": sehir
 }
+``` 
+<p>Öğrenci bilgileri anahtar–değer (key–value) mantığıyla tutulur.</p>
+<p>Bu yapı HTML oluştururken verilere kolay erişim sağlar.</p>
 
-Öğrenci bilgileri anahtar–değer (key–value) mantığıyla tutulur.
-Bu yapı HTML oluştururken verilere kolay erişim sağlar.
+## Kullanıcıdan Veri Alma ve Kontroller
+## input_al() Fonksiyonu
+<p>Bu fonksiyon kullanıcıdan öğrenci bilgilerini alır ve hatalı girişleri engeller.</p>
+```python
+  input()
+```
+<p>Kullanıcıdan veri almak için kullanılır. Python’da her input varsayılan olarak string döner.</p>
+```python
+strip()
+```
+-Boş giriş kontrolü
+```python
+if adSoyad == "":
+```
+<p>Kullanıcının boş veri girmesi engellenir.</p>
+```python
+isdigit()
+```
+<p>Girilen değerin sadece rakamlardan oluşup oluşmadığını kontrol eder.</p>
+- int() dönüşümü
+```python
+sinif = int(sinif)
+```
+<p>Sayısal işlemler için string veri integer tipe dönüştürülür.</p>
 
 ## Nasıl Çalıştırılır?
 Bu proje için **ekstra kurulum veya kütüphane gerekmez**.

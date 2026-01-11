@@ -132,8 +132,7 @@ f"{ogrenci_bilgileri[0]['adSoyad']}"
 
 <p><b>HTML ve CSS Yapısı</b></p>
 <p>HTML içinde:</p>
-"<div class="card">" yapısı ile kart tasarımı oluşturulmuştur.
-"<ul><li>"etiketleriyle ders listesi gösterilmiştir.
+"div" yapısı ile kart tasarımı oluşturulmuştur.
 
 <p>CSS ile:</p>
 <p>flex yapısı kullanılarak kartlar yan yana hizalanmıştır.</p>

@@ -1,14 +1,12 @@
 # BLM101_20360859034_OzgeKeskin
-<h1>Python ile Otomatik HTML Sayfası Oluşturucu</h1><br>
-<h2>Öğrenci Bilgileri:</h2> 
+<h1>Python ile Otomatik HTML Sayfası Oluşturucu</h1>
+<h2>Öğrenci Bilgileri</h2> 
   <p>Özge KESKİN</p>
-  <p>20360859034</p><br>
-<h2>Proje Konusu:</h2> 5. Grup: Ağlar, İnternet ve HTML<br>
-YouTube Linki: https://youtu.be/z4i6LhtKf0A<br>
-Proje Açıklaması: Kodun ne yaptığı, nasıl çalıştırılacağı (kurulum gerekip gerekmediği) ve kodun
-çalışma mantığının detaylı açıklaması (Markdown formatında).
+  <p>20360859034</p>
+<h2>Proje Konusu</h2> 5. Grup: Ağlar, İnternet ve HTML<br>
+<h2>YouTube Linki</h2> https://youtu.be/z4i6LhtKf0A<br>
+<h2>Proje Açıklaması</h2>
 
-## Proje Açıklaması
 Bu proje, Python programlama dili kullanılarak kullanıcıdan alınan bilgileri temel alan
 statik bir HTML web sayfası oluşturan bir uygulamadır.  
 Program, Python’un **string işlemleri** ve **dosya yazma (file write)** yeteneklerini kullanarak
